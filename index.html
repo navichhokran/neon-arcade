@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>NEON ARCADE</title>
+<meta name="description" content="A tiny neon arcade: Snake, 2048, Tetris and Bug Squash. Built for fun." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%AE%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="logo">NEON<span>ARCADE</span></div>
+    <button id="backBtn" class="back-btn" hidden>&larr; ARCADE</button>
+    <div class="coin">insert coin &#9656;</div>
+  </header>
+  <main id="hub" class="hub">
+    <h1 class="hub__title">SELECT GAME</h1>
+    <div id="cards" class="cards"></div>
+  </main>
+  <section id="stage" class="stage" hidden>
+    <div id="gameRoot" class="game-root"></div>
+  </section>
+  <footer class="footer"><span id="sign"></span></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
