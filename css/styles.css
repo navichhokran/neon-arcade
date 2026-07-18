@@ -37,6 +37,8 @@ body{
 .card--game2048 .card__title{color:var(--yellow)}
 .card--tetris .card__title{color:var(--cyan)}
 .card--bugsquash .card__title{color:var(--magenta)}
+.card--frogger .card__title{color:var(--lime)}
+.card--shooter .card__title{color:var(--purple)}
 .card__desc{font-size:19px;color:var(--dim);line-height:1.15;min-height:44px}
 .card__play{margin-top:14px;font-family:'Press Start 2P',monospace;font-size:9px;color:var(--lime)}
 
@@ -48,6 +50,7 @@ body{
 .neon-yellow{color:var(--yellow);text-shadow:0 0 12px rgba(255,225,77,.6)}
 .neon-lime{color:var(--lime);text-shadow:0 0 12px rgba(184,255,58,.6)}
 .neon-magenta{color:var(--magenta);text-shadow:0 0 12px rgba(255,59,212,.6)}
+.neon-purple{color:var(--purple);text-shadow:0 0 12px rgba(194,107,255,.6)}
 .hud{display:flex;flex-wrap:wrap;gap:14px;font-size:19px;color:var(--dim)}
 .hud b{color:var(--text);font-size:21px}
 
